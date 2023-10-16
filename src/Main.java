@@ -35,5 +35,22 @@ public class Main {
         System.out.println(Arrays.toString(product));
         int[] division = Problem3.divide(num5, 2);
         System.out.println(Arrays.toString(division));
+
+        int[] Keyboards1 = {40, 35, 70, 15, 45};
+        int cheapestKeyboard = Problem4.cheapestKeyboard(Keyboards1);
+        System.out.println(cheapestKeyboard);
+        int[] Keyboards2 = {15, 20, 10, 35};
+        int[] usbDrives = {15, 20, 10, 35};
+        int mostExpensive = Problem4.mostExpensiveItem(Keyboards2, usbDrives);
+        System.out.println(mostExpensive);
+        int[] usbDrives2 = {15, 45, 20};
+        int maxUSBWithinBudget = Problem4.maxUSBDriveWithinBudget(usbDrives2, 30);
+        System.out.println(maxUSBWithinBudget);
+        int b = 60;
+        int[] Keyboards3 = {40, 50, 60};
+        int[] usbDrives4 = {8, 12};
+        int markusSpending = Problem4.markusSpending(b, Keyboards3, usbDrives4);
+        System.out.println(markusSpending);
+
     }
 }
